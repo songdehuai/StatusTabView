@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="StatusView">
+        <attr name="normalColor" format="color|reference" />
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="android:textSize" />
+        <attr name="textColors" format="color|reference" />
+        <attr name="selectedTextColor" format="color|reference" />
+        <attr name="texts" format="string"/>
+        <attr name="retinue" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="slashAngle" format="integer" />
+    </declare-styleable>
+
+
+</resources>
